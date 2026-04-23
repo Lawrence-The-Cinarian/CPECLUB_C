@@ -5,7 +5,7 @@
 
 int main() {
 
-	int num; // The variable for num which represents "Input Number" int is just a dats type
+	int num; // The variable for num which represents "Input Number" int is just a data type
 	puts("This is the Even Odd Checker File\n"); // Introduction file
 	printf("Enter Number to check: "); // Where
 	scanf("%d", &num);
