@@ -1,6 +1,6 @@
 #include "main.h"
 
-short main() {
+int main() {
 littleP();
 simpleC();
   return 0;
