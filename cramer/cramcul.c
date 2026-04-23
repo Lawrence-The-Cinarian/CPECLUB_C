@@ -12,20 +12,24 @@ int main(void) {
       float sinum; //sixth number
       float D, Dx, Dy, x, y;
 do {
-	puts("Cramer's Linear Algebraic Calculator");
-	puts("Instructions: You are to enter six known numbers for calculation of determinants");
-	printf("Enter First Number: ");
+	printf("╔══════════════════════════════════════════════════════════════════════════════════╗\n");
+	printf("║                    Cramer's Linear Algebraic Calculator                          ║\n");
+	printf("╚══════════════════════════════════════════════════════════════════════════════════╝\n");
+	printf("╔══════════════════════════════════════════════════════════════════════════════════╗\n");
+	printf("║ Instructions: You are to enter six known numbers for calculation of determinants ║\n");
+	printf("║ Enter First Number: ");
 	scanf("%f", &fnum);
-	printf("Enter Second Number: ");
+	printf("║ Enter Second Number: ");
 	scanf("%f", &snum);
-	printf("Enter Third Number: ");
+	printf("║ Enter Third Number: ");
 	scanf("%f", &tnum);
-	printf("Enter Fourth Number: ");
+	printf("║ Enter Fourth Number: ");
 	scanf("%f", &fonum);
-	printf("Enter Fifth Number: ");
+	printf("║ Enter Fifth Number: ");
 	scanf("%f", &finum);
-	printf("Enter Sixth Number: ");
+	printf("║ Enter Sixth Number: ");
 	scanf("%f", &sinum);
+	printf("╚══════════════════════════════════════════════════════════════════════════════════╝\n");
 
 	D = solve(fnum, snum, tnum, fonum, finum, sinum);
 	Dx = solve2(fnum, snum, tnum, fonum, finum, sinum);
@@ -33,14 +37,19 @@ do {
         x = divide(Dx, D);
         y = divide(Dy, D);
 	if(D == 0) {
-		puts("No Unique Solution exists");
+		printf("╔══════════════════════════════════════════════════════════════════════════════════╗\n");
+		printf("║                             No Unique Solution exists                            ║\n");
+		printf("╚══════════════════════════════════════════════════════════════════════════════════╝\n");
 	}
 		else {
-		printf("Main D = %.2f\n", D);
-		printf("Dx = %.2f\n", Dx);
-		printf("Dy = %.2f\n", Dy);
-		printf("x = %.2f\n", x);
-		printf("y = %.2f\n", y);
+		printf("╔══════════════════════════════════════════════════════════════════════════════════╗\n");
+		printf("║ Main D = %.2f\n", D);
+		printf("║ Dx = %.2f\n", Dx);
+		printf("║ Dy = %.2f\n", Dy);
+		printf("║ x = %.2f\n", x);
+		printf("║ y = %.2f\n", y);
+		printf("╚══════════════════════════════════════════════════════════════════════════════════╝\n");
+		printf("\n");
 	}
  }
 while (operators != 0);
