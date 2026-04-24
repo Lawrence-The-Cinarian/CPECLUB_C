@@ -6,7 +6,7 @@
 int main() {
 
 	int num; // The variable for num which represents "Input Number" int is just a data type
-    do {
+    do { //For Looping the Program pressing CTRL+C to stop running
 	puts("╔════════════════════════════════════╗");
 	puts("║ This is the Even Odd Checker File  ╝"); // Introduction file
 	printf("║Enter Number to check: "); // Where to Enter Number to check for Even or Odd Outputs
