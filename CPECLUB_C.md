@@ -18,7 +18,7 @@ Fork this repository on your Command Line, using
 # STEP 2;
 Go to the file section, Type 
 
-"cd CPECLUB_C"
+''cd CPECLUB_C''
 
 To see files, Type
 
