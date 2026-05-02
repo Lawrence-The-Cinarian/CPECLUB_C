@@ -1,6 +1,7 @@
 # CPECLUB_C
 This Repository will contain most of my little projects as regards to Programming Journey 🤗
-
+Please Note: All Files in this Repository is prone to breakage of Loops
+I'll attend to it as soon as possible 
 
 # How to run the File
 
