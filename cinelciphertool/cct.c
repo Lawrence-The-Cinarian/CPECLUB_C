@@ -7,11 +7,20 @@ int main(void) {
 
 	ciphon con;
 
-    printf("Enter your message: ");
-    scanf("%99s", con.cinelencrypt);
+    printf("╔≐════════════════════════════════════════╗\n");
+    printf("║            Cinel's Cipher Tool          ║\n");
+    printf("╚═════════════════════════════════════════╝\n");
 
-    printf("Enter key: ");
+
+    printf("╔≐════════════════════════════════════════╗\n");
+    printf("║ Enter your message: ");
+    scanf("%99s", con.cinelencrypt);
+    printf("╚═════════════════════════════════════════╝\n");
+
+    printf("╔≐════════════════════════════════════════╗\n");
+    printf("  Enter key: ");
     scanf("%d", &con.key);
+    printf("╚═════════════════════════════════════════╝\n");
 
     for(char *ptr = con.cinelencrypt; *ptr != '\0'; ptr++) {
         if(*ptr >= 'a' && *ptr <= 'z') {
@@ -23,7 +32,9 @@ int main(void) {
     }
 
 }
-    printf("Encrypted Output: %s\n", con.cinelencrypt);
+    printf("╔≐════════════════════════════════════════╗\n");
+    printf("  Encrypted Output: %s\n", con.cinelencrypt);
+    printf("╚═════════════════════════════════════════╝\n");
 
     return 0;
 }

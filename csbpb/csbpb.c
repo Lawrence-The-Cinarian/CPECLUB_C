@@ -5,9 +5,9 @@
 
 int main() {
 
-	Contact savemy[2];
-	int count = 0;
-	char *ptr = &savemy[count].Address;
+	Contact savemy[10];
+	Count saveme;
+	char *ptr = &savemy[saveme].Address;
 	int number;
 
 for(;;) {
@@ -16,23 +16,22 @@ for(;;) {
 	scanf("%d", &number);
 
 		if(number == 1) {
-	for(int i = 0; i < count; i++) {
+	for(int i = 0; i < saveme.number; i++) {
 	printf("Enter your Name: ");
-	scanf("%99s", savemy[count].Name);
-	printf("Entet your Phone Number: ");
-	scanf("%99s", savemy[count].phoneNumber);
+	scanf("%99s", savemy[saveme].Name);
+	printf("Enter your Phone Number: ");
+	scanf("%99s", savemy[saveme].phoneNumber);
 
 
-	printf("Name: %s | Phone Number: %s | Memory Location %p |\n", savemy[count].Name, savemy[count].phoneNumber, &savemy[count].Address);
+	printf("Name: %s | Phone Number: %s | Memory Location %p |\n", savemy[saveme].Name, savemy[saveme].phoneNumber, &savemy[saveme].Address);
  	}
 }
 	else if(number == 2) {
-	for(int i = 0; i < count; i++) {
-	     printf("Name: %s | Phone Number: %s | Memory Location %p |\n", savemy[count].Name, savemy[count].phoneNumber, &savemy[count].Address);
+	for(int i = 0; i < saveme[10].number; i++) {
+	     printf("Name: %s | Phone Number: %s | Memory Location %p |\n", savemy[saveme].Name, savemy[saveme].phoneNumber, &savemy[saveme].Address);
 	}
 }
 	else puts("invalid option");
-	}
-
+}
 return 0;
 }

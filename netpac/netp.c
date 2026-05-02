@@ -15,12 +15,12 @@
 
 int main(void) {
 
-	struct paclib packpro;
+	paclib packpro;
 	char Packet[] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
 
-
+      puts("");
       puts("Cinari Sorting Firewall");
-
+      puts("");
       //For Looping the program;
       puts("Instructions; You are to enter The Priority and Serial Numbers of your Packets for sorting and arrangement");
       puts("");
