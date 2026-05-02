@@ -1,19 +1,31 @@
 #ifndef MATHFUNC_H
 #define MATHFUNC_H
+#include <math.h>
 
-/*This is the full meanings
-  add = addition
-  sub = subtraction 
-  mul = multiplication
-  div = division
-  sqre = power square
-  cube = power cube
-*/
+/* add stands for addition
+ * sub for subtraction
+ * mul for multiplication
+ * div for division
+ * sqre for power square
+ * cube for power cube
+ */
+ double add(double a, double b) {
+ return a+b;
+ }
+ double sub(double a, double b) {
+ return a-b;
+ }
+ double mul(double a, double b) {
+ return a*b;
+ }
+ double div(double a, double b) {
+ return a/b;
+ }
+ double sqre(double a) {
+ return pow(a, 2);
+ }
+ double cube(double a) {
+ return pow(a, 3);
+ }
 
-double add(double a, double b);
-double sub(double a, double b);
-double mul(double a, double b);
-double div(double a, double b);
-double sqre(double a);
-double cube(double a);
 #endif

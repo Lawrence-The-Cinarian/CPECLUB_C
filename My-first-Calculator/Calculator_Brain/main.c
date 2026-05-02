@@ -3,5 +3,4 @@
 int main() {
 littleP();
 simpleC();
-  return 0;
-}
+ }

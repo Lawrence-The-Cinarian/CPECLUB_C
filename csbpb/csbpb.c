@@ -6,7 +6,7 @@
 int main() {
 
 	Contact savemy[2];
-	int count = 0;
+	int count = 10;
 	char *ptr = &savemy[count].Address;
 	int number;
 
