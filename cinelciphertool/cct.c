@@ -1,22 +1,24 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include "cctheader.h"
 
 int main(void) {
-    int key;
-    char cinelencrypt[100];
+
+
+	ciphon con;
 
     printf("Enter your message: ");
-    scanf("%99s", cinelencrypt);
+    scanf("%99s", con.cinelencrypt);
 
     printf("Enter key: ");
-    scanf("%d", &key);
+    scanf("%d", &con.key);
 
-    for(char *ptr = cinelencrypt; *ptr != '\0'; ptr++) {
-        *ptr = *ptr + key;
+    for(char *ptr = con.cinelencrypt; *ptr != '\0'; ptr++) {
+        *ptr = *ptr + con.key;
     }
 
-    printf("Encrypted Output: %s\n", cinelencrypt);
+    printf("Encrypted Output: %s\n", con.cinelencrypt);
 
     return 0;
 }
