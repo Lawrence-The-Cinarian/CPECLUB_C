@@ -9,9 +9,5 @@ char Address;
 
 } Contact;
 
-typedef struct {
 
-int number[10];
-
-} Count;
 #endif
