@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "contdmg.h"
+#include "contdmg.h" //Created Header File containing the function result();
 
 int main(void) {
 
@@ -8,8 +8,7 @@ int genesis;
 puts("Cinel's Dynamic Multiplication Grid");
 printf("Enter Number to display DMG: ");
 scanf("%d", &genesis);
-puts("Please Note that these results are stated in rows");
-result(genesis);
+result(genesis); // Function created to reduce and spread work evenly
 
 return 0;
 }
