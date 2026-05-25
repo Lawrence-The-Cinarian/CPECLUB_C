@@ -1,20 +1,21 @@
-# My-first-Calculator
-My first project after learning the basics of C language
+#INTRODUCTION
 
-Not Much Though still updating it 
-You can check this out if you're like me 🤧😂
-Maybe study it 🤧
+This is a simple advanced arithmetic calculator, it was created to test to the skills of its author as they are beginners, This project can be forked, modified and used for testing and studying purposes.
 
-![Screenshot_20260313-175347_1](https://github.com/user-attachments/assets/5dbd2a85-ca32-4c18-9af0-d3c3862c914a)
+#PICTURES OF HOW THE CODE LOOKS LIKE 
 
-![Screenshot_20260313-175102_1](https://github.com/user-attachments/assets/09f292af-facd-4b8b-b8b1-037636e3f48f)
+#HOW TO RUN
+#FOR LINUX USERS
 
-Still Performing updates though....
+Fork the CPECLUB_C by using this link
+`git clone https://github.com/Lawrence-The-Cinarian/CPECLUB_C`
 
-I'll figure out how to make it so it doesn't accept letters
+On your Linux Terminal, Type this
+`cd ~/CPECLUB_C/My-first-Calculator`
 
-# New Work Done 
-# 24th March 2026
-I implemented mathfunc.c and mathfunc.h for function.kl lol look y66
-When Compiling we use this
-``gcc Calculator_Brain/main.c simpleC.c littleP.c mathfunc``
+Finally, Run
+`make`
+
+To Terminate Program, Press
+`CTRL + C`
+
