@@ -3,7 +3,6 @@
 This is a simple advanced arithmetic calculator, it was created to test to the skills of its author as they are beginners, This project can be forked, modified and used for testing and studying purposes.
 
 # PICTURES OF HOW THE CODE LOOKS LIKE 
-<img width="1920" height="1080" alt="Screenshot from 2026-05-25 10-01-22" src="https://github.com/user-attachments/assets/9482ccc2-f9b6-4854-a757-3a987141728a" />
 
 <img width="1920" height="1080" alt="Screenshot from 2026-05-25 08-28-55" src="https://github.com/user-attachments/assets/0b1b9039-9a16-4a5a-919a-8046071f011f" />
 
