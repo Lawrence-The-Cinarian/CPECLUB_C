@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+
+int main(void) {
+	int ans, opt ;
+	printf("FUTO's CGPA CALCULATOR\n");
+	printf("What Level are you in? :- ");
+	scanf("%d", &opt);
+	if(opt == 100) {
+           for(int i = 0; i < 2; i++) {
+	   printf("Enter Your 100 level: ");
+	   scanf("%d", &ans);
+	   }
+	}
+return 0;
+}
